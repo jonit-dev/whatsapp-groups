@@ -111,6 +111,12 @@ document.addEventListener("DOMContentLoaded", () => {
         url: "https://chat.whatsapp.com/IpyZFwgaiDBAnGDTMLmV4i"
       }
     ],
+    mg: [
+      {
+        name: "Emprego Urgente MG - #1",
+        url: "https://chat.whatsapp.com/GAyfZlKAfmk006WxsLw5Ds"
+      }
+    ],
     vancouver: [
       {
         name: "Jobs Vancouver #1",
