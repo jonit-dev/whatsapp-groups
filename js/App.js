@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
         url: "https://chat.whatsapp.com/IpyZFwgaiDBAnGDTMLmV4i"
       }
     ],
-    mg: [
+    bh: [
       {
         name: "Emprego Urgente BH - #1",
         url: "https://chat.whatsapp.com/GAyfZlKAfmk006WxsLw5Ds"
