@@ -3,6 +3,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const languageStrings = {
     ptbr: {
+      facebook: {
+        meta: {
+          title: "Grupos de WhatsApp - Vagas",
+          description:
+            "Acesse vagas exclusivas em todo estado, postadas diariamente"
+        }
+      },
       title: "Grupos de Whatsapp",
       headline: "Acesse grupos de emprego exclusivos",
       input: {
@@ -22,6 +29,12 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     },
     eng: {
+      facebook: {
+        meta: {
+          title: "Whatsapp Group - Jobs",
+          description: "Access exclusive job positions, posted daily"
+        }
+      },
       title: "Whatsapp Groups",
       headline: "Access our Job Groups",
       input: {
@@ -112,6 +125,15 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   const strings = languageStrings[language];
+
+  // set facebook meta
+
+  document
+    .querySelector("meta[property*='title']")
+    .setAttribute("content", strings.facebook.meta.title);
+  document
+    .querySelector("meta[property*='description']")
+    .setAttribute("content", strings.facebook.meta.description);
 
   // set translation strings
 
