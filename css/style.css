@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+
+  font-weight: bold;
+}
+
+body * {
+  font-family: "HelveticaNeue" !important;
+}
+
+nav {
+  flex: 100%;
+  background-color: #1ebea5;
+
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav .header-title {
+  color: white;
+}
+
+main {
+  flex: auto;
+  padding: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main .logo {
+  display: flex;
+  flex: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+main .logo img {
+  max-width: 200px;
+  padding: 1rem;
+}
+
+h1 {
+  flex: 100%;
+  display: inline;
+  color: #555555;
+  text-align: center;
+  font-family: "HelveticaNeue" !important;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+#form-signup {
+  width: 100%;
+  max-width: 500px;
+}
+
+#form-submit {
+  margin-top: 2rem;
+}
+
+.whatsapp-button {
+  background-color: #01e675 !important;
+  border: 1px solid #01e675 !important;
+  font-family: "HelveticaNeue" !important;
+  width: 100%;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="url"]:focus,
+input[type="color"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input:not([type]):focus,
+textarea:focus,
+select:focus {
+  border-color: #075e54;
+  outline: 0;
+}
