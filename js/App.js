@@ -120,7 +120,11 @@ document.addEventListener("DOMContentLoaded", () => {
     vancouver: [
       {
         name: "Jobs Vancouver #1",
-        url: "https://chat.whatsapp.com/EVXsDCNjUhl7JSZQ3gAQd0"
+        url: "https://chat.whatsapp.com/5zUjHMNZJylCqpyLL3GnX0"
+      },
+      {
+        name: "Jobs Vancouver #2",
+        url: "https://chat.whatsapp.com/K2TKkbtxO8C7BmNDW7kTn4"
       }
     ]
   };
