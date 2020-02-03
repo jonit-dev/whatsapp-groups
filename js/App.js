@@ -19,7 +19,10 @@ document.addEventListener("DOMContentLoaded", () => {
         emailPlaceholder: "Seu e-mail",
         position: "Vaga de interesse",
         positionPlaceholder: "Ex. Vendedor",
-        group: "Grupo"
+        group: "Grupo",
+        purpose: "Objetivo",
+        purposeJobSeeker: "Conseguir um emprego",
+        purposeRecruiter: "Recrutar candidatos"
       },
       ctaButton: "Acessar",
       validation: {
@@ -44,7 +47,10 @@ document.addEventListener("DOMContentLoaded", () => {
         emailPlaceholder: "Your e-mail",
         position: "Position",
         positionPlaceholder: "Eg. Receptionist",
-        group: "Group"
+        group: "Group",
+        purpose: "Purpose",
+        purposeJobSeeker: "Get a Job",
+        purposeRecruiter: "Recruit Candidates"
       },
       ctaButton: "Next",
       validation: {
@@ -171,6 +177,14 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector("label[for=group-select]").innerText =
     strings.input.group;
 
+  // purpose
+  document.querySelector("label[for=purpose]").innerText =
+    strings.input.purpose;
+  document.querySelector(".purpose-text-job-seeker").innerText =
+    strings.input.purposeJobSeeker;
+  document.querySelector(".purpose-text-recruiter").innerText =
+    strings.input.purposeRecruiter;
+
   // cta button
   document.querySelector("#form-submit").value = strings.ctaButton;
 
@@ -195,7 +209,8 @@ document.addEventListener("DOMContentLoaded", () => {
       name: document.querySelector("#name").value,
       email: document.querySelector("#email").value,
       position: document.querySelector("#position").value,
-      group: document.querySelector("#group-select option:checked").value
+      group: document.querySelector("#group-select option:checked").value,
+      purpose: document.querySelector("input[name=purpose]:checked").value
     };
 
     //basic validation
@@ -204,7 +219,8 @@ document.addEventListener("DOMContentLoaded", () => {
       !formData.name ||
       !formData.email ||
       !formData.position ||
-      !formData.group
+      !formData.group ||
+      !formData.purpose
     ) {
       alert(strings.validation.errorEmptyField);
       return;

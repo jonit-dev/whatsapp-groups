@@ -87,3 +87,20 @@ select:focus {
   border-color: #075e54;
   outline: 0;
 }
+
+.radio-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.radio-row input[type="radio"] {
+  margin-right: 1.2rem;
+  position: relative;
+  top: 0.6rem;
+}
+
+.radio-row div {
+  font-weight: lighter;
+}
