@@ -108,10 +108,10 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     ],
     sp: [
-      {
-        name: "Emprego Urgente SP - #1",
-        url: "https://chat.whatsapp.com/DITRy3cquo38EBkdacf8DS"
-      },
+      // {
+      //   name: "Emprego Urgente SP - #1",
+      //   url: "https://chat.whatsapp.com/DITRy3cquo38EBkdacf8DS"
+      // },
       {
         name: "Emprego Urgente SP - #2",
         url: "https://chat.whatsapp.com/IpyZFwgaiDBAnGDTMLmV4i"
