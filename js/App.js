@@ -98,13 +98,17 @@ document.addEventListener("DOMContentLoaded", () => {
       //   name: "Emprego Urgente ES - #1",
       //   url: "https://chat.whatsapp.com/K3mKt9yREN8JUBfQUN6Y2r"
       // },
-      {
-        name: "Emprego Urgente ES - #2",
-        url: "https://chat.whatsapp.com/HJV3zqgoU0W1ZpEa6Rtdym"
-      },
+      // {
+      //   name: "Emprego Urgente ES - #2",
+      //   url: "https://chat.whatsapp.com/HJV3zqgoU0W1ZpEa6Rtdym"
+      // },
       {
         name: "Emprego Urgente ES - #3",
         url: "https://chat.whatsapp.com/E4dtl6wK6xw4uBfuJw7MNW"
+      },
+      {
+        name: "Emprego Urgente ES - #4",
+        url: "https://chat.whatsapp.com/GIYWbj4hxr8JtkoI4XXSrE"
       }
     ],
     sp: [
@@ -115,6 +119,10 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         name: "Emprego Urgente SP - #2",
         url: "https://chat.whatsapp.com/IpyZFwgaiDBAnGDTMLmV4i"
+      },
+      {
+        name: "Emprego Urgente SP - #3",
+        url: "https://chat.whatsapp.com/I5wVYy32fKDDKSZldDRa3U"
       }
     ],
     bh: [
@@ -157,7 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector(".header-title").innerText = strings.title;
 
   // headline
-  document.querySelector("#headline").innerText = strings.headline;
+  // document.querySelector("#headline").innerText = strings.headline;
 
   // name
   document.querySelector("label[for='name']").innerText = strings.input.name;

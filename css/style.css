@@ -9,6 +9,8 @@ body * {
 }
 
 nav {
+  display: flex;
+  flex-wrap: wrap;
   flex: 100%;
   background-color: #1ebea5;
 
@@ -59,6 +61,9 @@ h1 {
 
 #form-submit {
   margin-top: 2rem;
+  font-weight: bolder;
+  letter-spacing: 3.9px;
+  height: 46.7px;
 }
 
 .whatsapp-button {
