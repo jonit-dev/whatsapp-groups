@@ -94,21 +94,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const groups = {
     es: [
-      // {
-      //   name: "Emprego Urgente ES - #1",
-      //   url: "https://chat.whatsapp.com/K3mKt9yREN8JUBfQUN6Y2r"
-      // },
-      // {
-      //   name: "Emprego Urgente ES - #2",
-      //   url: "https://chat.whatsapp.com/HJV3zqgoU0W1ZpEa6Rtdym"
-      // },
       {
-        name: "Emprego Urgente ES - #3",
-        url: "https://chat.whatsapp.com/E4dtl6wK6xw4uBfuJw7MNW"
+        name: "Emprego Urgente ES - #1",
+        url: "https://chat.whatsapp.com/K3mKt9yREN8JUBfQUN6Y2r"
       },
+      {
+        name: "Emprego Urgente ES - #2",
+        url: "https://chat.whatsapp.com/HJV3zqgoU0W1ZpEa6Rtdym"
+      },
+      // {
+      //   name: "Emprego Urgente ES - #3",
+      //   url: "https://chat.whatsapp.com/E4dtl6wK6xw4uBfuJw7MNW"
+      // },
       {
         name: "Emprego Urgente ES - #4",
         url: "https://chat.whatsapp.com/GIYWbj4hxr8JtkoI4XXSrE"
+      },
+      {
+        name: "Emprego Urgente ES - #5",
+        url: "https://chat.whatsapp.com/KlQy0bGSrcQJthT3AopDCM"
       }
     ],
     sp: [
