@@ -116,33 +116,49 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     ],
     sp: [
-      // {
-      //   name: "Emprego Urgente SP - #1",
-      //   url: "https://chat.whatsapp.com/DITRy3cquo38EBkdacf8DS"
-      // },
       {
-        name: "Emprego Urgente SP - #2",
-        url: "https://chat.whatsapp.com/IpyZFwgaiDBAnGDTMLmV4i"
+        name: "Emprego Urgente SP - #1",
+        url: "https://chat.whatsapp.com/DITRy3cquo38EBkdacf8DS"
       },
+      // {
+      //   name: "Emprego Urgente SP - #2",
+      //   url: "https://chat.whatsapp.com/IpyZFwgaiDBAnGDTMLmV4i"
+      // },
       {
         name: "Emprego Urgente SP - #3",
         url: "https://chat.whatsapp.com/I5wVYy32fKDDKSZldDRa3U"
+      },
+      {
+        name: "Emprego Urgente SP - #4",
+        url: "https://chat.whatsapp.com/GnN84IIcvd15rJs09ukqP7"
       }
     ],
     bh: [
+      // {
+      //   name: "Emprego Urgente BH - #1",
+      //   url: "https://chat.whatsapp.com/GAyfZlKAfmk006WxsLw5Ds"
+      // },
       {
-        name: "Emprego Urgente BH - #1",
-        url: "https://chat.whatsapp.com/GAyfZlKAfmk006WxsLw5Ds"
+        name: "Emprego Urgente BH - #2",
+        url: "https://chat.whatsapp.com/CKcZNtHDQHSJSUgLUUt5cz"
+      },
+      {
+        name: "Emprego Urgente BH - #3",
+        url: "https://chat.whatsapp.com/GHipWCH8e45Dk2pDxhREsC"
       }
     ],
     vancouver: [
-      {
-        name: "Jobs Vancouver #1",
-        url: "https://chat.whatsapp.com/5zUjHMNZJylCqpyLL3GnX0"
-      },
+      // {
+      //   name: "Jobs Vancouver #1",
+      //   url: "https://chat.whatsapp.com/5zUjHMNZJylCqpyLL3GnX0"
+      // },
       {
         name: "Jobs Vancouver #2",
         url: "https://chat.whatsapp.com/K2TKkbtxO8C7BmNDW7kTn4"
+      },
+      {
+        name: "Jobs Vancouver #3",
+        url: "https://chat.whatsapp.com/Hf3Z3LGBd4QFfBl86vLo7D"
       }
     ]
   };
